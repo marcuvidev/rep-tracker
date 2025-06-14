@@ -1,5 +1,5 @@
-const API_BASE = 'https://rep-tracker.kesug.com/api/';
-const LOGIN_API = 'https://rep-tracker.kesug.com/api/users/login';
+const API_BASE = 'http://rep-tracker.atwebpages.com/api';
+const LOGIN_API = 'http://rep-tracker.atwebpages.com/api/users/login';
 
 const loginView = document.getElementById('login-view');
 const appView = document.getElementById('app-view');

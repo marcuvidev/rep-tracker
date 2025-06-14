@@ -1,12 +1,12 @@
 const CACHE_NAME = 'gym-tracker-v1.2';
 const FILES_TO_CACHE = [
-  './',
-  './index.html',
-  './style.css',
-  './app.js',
-  './manifest.json',
-  './assets/gym.png',
-  './assets/pesa.png',
+  '/frontend/',
+  '/frontend/index.html',
+  '/frontend/style.css',
+  '/frontend/app.js',
+  '/frontend/manifest.json',
+  '/frontend/assets/gym.png',
+  '/frontend/assets/pesa.png',
 ];
 
 self.addEventListener('install', event => {
