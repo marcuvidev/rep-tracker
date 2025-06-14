@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="./manifest.json">
+  <title>Gym Tracker</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Gym Tracker</h1>
+  </header>
+  <main>
+    <!-- Login View -->
+    <div id="login-view">
+      <form id="login-form">
+        <input type="text" id="login-name" placeholder="Your name" required />
+        <input type="text" id="login-password" placeholder="Your password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <!-- Main App View -->
+    <div id="app-view" style="display:none;">
+      <form id="user-form">
+        <input type="text" id="name" placeholder="User Name" required />
+        <input type="text" id="password" placeholder="User Password" required />
+        <button type="submit">Add User</button>
+      </form>
+      <ul id="user-list"></ul>
+      <button id="logout-btn">Logout</button>
+    </div>
+  </main>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js'></script>
+  <script src="./app.js"></script>
+</body>
+</html>
